@@ -99,7 +99,7 @@ begin
     
         -- valeurs par défaut pour les décomptes
         decompte_pietons <= to_unsigned(0, decompte_pietons'length);
-        decompte_pietons_allume <= '1';
+        decompte_pietons_allume <= '0';
     
         -- assignations aux feux
         case etat is
